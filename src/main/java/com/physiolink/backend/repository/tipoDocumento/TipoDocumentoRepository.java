@@ -1,6 +1,5 @@
 package com.physiolink.backend.repository.tipoDocumento;
 
-import com.physiolink.backend.model.prueba.Prueba;
 import com.physiolink.backend.model.tipoDocumento.TipoDocumento;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

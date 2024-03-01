@@ -1,8 +1,6 @@
 package com.physiolink.backend.controller.tipoDocumento;
 
-import com.physiolink.backend.model.prueba.Prueba;
 import com.physiolink.backend.model.tipoDocumento.TipoDocumento;
-import com.physiolink.backend.service.prueba.IPruebaService;
 import com.physiolink.backend.service.tipoDocumento.ITipoDocumentoService;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;

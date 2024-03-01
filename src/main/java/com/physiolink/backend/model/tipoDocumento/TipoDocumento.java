@@ -18,4 +18,10 @@ public class TipoDocumento {
     @Id
     @Column(name = "id")
     private Integer id;
+
+    @Column(name = "documento")
+    private String documento;
+
+    @Column(name = "sigla")
+    private String sigla;
 }
