@@ -10,7 +10,7 @@ import java.net.URI;
 public class BackendApplication {
 
 	public static void main(String[] args) {
-		abrirNavegador("http://localhost:8080");
+		abrirNavegador("http://localhost:8081");
 		SpringApplication.run(BackendApplication.class, args);
 	}
 

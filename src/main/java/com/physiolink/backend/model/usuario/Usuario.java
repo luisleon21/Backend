@@ -1,4 +1,4 @@
-package com.physiolink.backend.model.tipoDocumento;
+package com.physiolink.backend.model.usuario;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -9,19 +9,19 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "tipo_documento")
+@Table(name = "usuario")
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class TipoDocumento {
+public class Usuario {
 
     @Id
     @Column(name = "id")
     private Integer Id;
 
-    @Column(name = "documento")
-    private String Documento;
+    @Column(name = "usuario")
+    private Integer Usuario;
 
-    @Column(name = "sigla")
-    private String Sigla;
+    @Column(name = "password")
+    private String Password;
 }
