@@ -10,19 +10,20 @@ import lombok.NoArgsConstructor;
 import java.util.Date;
 
 @Entity
-@Table(name = "paciente")
+@Table(name = "doctor")
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 public class Doctor {
+
     @jakarta.persistence.Id
     @Column(name = "id")
     private Integer Id;
 
-    @Column(name = "nombre")
+    @Column(name = "nombres")
     private String nombre;
 
-    @Column(name = "apellido")
+    @Column(name = "apellidos")
     private String apellido;
 
     @Column(name = "licencia")
